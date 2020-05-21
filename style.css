@@ -462,14 +462,14 @@
 	line-height: 1.1rem;
 }
 
-/*Lista num 1*/
+//*Lista num 1*/
 
 .content .bck-ol1 li,
 .cke_contents .bck-ol1 li,
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
-	padding-left: 28px;
+	padding-left: 35px;
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
@@ -500,16 +500,23 @@ content: counter(bck-li-counter);
     font-family: 'Conv_RobotoSlab-Bold';
 }
 
-/*LISTA ORDENADA 2*/
+/*LISTA num 2*/
+.content .bck-ol2 li,
+.cke_contents .bck-ol2 li,
+.content ol li,
+.cke_contents ol li {
+	list-style-type: none;
+	padding-left: 35px;
+	margin-bottom: 16px;
+	counter-increment: bck-li-counter;
+	position: relative;
+	line-height: 1.1rem;
+}
 
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
-    color: #000;
+	content: counter(bck-li-counter, lower-alpha);
+    color: #F15923;
 }
 
 /*LISTA ORDENADA 3*/
@@ -551,7 +558,7 @@ content: counter(bck-li-counter);
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
     width: 6px;
     height: 6px;
-    background-color: #414141;
+    background-color: #F15923;
 }
 
 /*CAJAS*/
