@@ -502,15 +502,19 @@ content: counter(bck-li-counter);
 
 /*LISTA num 2*/
 .content .bck-ol2 li,
-.cke_contents .bck-ol2 li,
-.content ol li,
-.cke_contents ol li {
+.cke_contents .bck-ol2 li{
 	list-style-type: none;
 	padding-left: 35px;
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
 	line-height: 1.1rem;
+}
+
+.content .bck-ol2 li:before,
+.cke_contents .bck-ol2 li:before {
+	content: counter(bck-li-counter, lower-alpha);
+    color: #F15923;
 }
 
 .content .bck-ol2 li:before,
