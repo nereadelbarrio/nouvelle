@@ -2,81 +2,53 @@
 
 /* Fonts */
 
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Thin.otf);
-	  font-weight: 100;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-ThinItalic.otf);
-	  font-weight: 100;
-	  font-style: italic;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Light.otf);
-	  font-weight: 200;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-LightItalic.otf);
-	  font-weight: 200;
-	  font-style: italic;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Regular.otf);
-	  font-weight: 400;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Italic.otf);
-	  font-weight: 400;
-	  font-style: italic;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Medium.otf);
-	  font-weight: 500;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-MediumItalic.otf);
-	  font-weight: 500;
-	  font-style: italic;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Bold.otf);
-	  font-weight: 700;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-BoldItalic.otf);
-	  font-weight: 700;
-	  font-style: italic;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-Heavy.otf);
-	  font-weight: 900;
-	  letter-spacing: 2px;
-	}
-	@font-face {
-	  font-family: CamphorPro;
-	  src: url(fonts/CamphorPro-HeavyItalic.otf);
-	  font-weight: 900;
-	  font-style: italic;
-	  letter-spacing: 2px;
-	}
+@font-face {
+	font-family: 'Conv_RobotoCondensed-Bold';
+	src: url('fonts/RobotoCondensed-Bold.eot');
+	src: local('☺'), url('fonts/RobotoCondensed-Bold.woff') format('woff'), url('fonts/RobotoCondensed-Bold.ttf') format('truetype'), url('fonts/RobotoCondensed-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-	@font-face {
-	  font-family: GhostKid;
-	  src: url(fonts/Ghost-Kid-AOE.ttf);
-	  font-weight: 400;
-	}
+@font-face {
+	font-family: 'Conv_RobotoCondensed-Italic';
+	src: url('fonts/RobotoCondensed-Italic.eot');
+	src: local('☺'), url('fonts/RobotoCondensed-Italic.woff') format('woff'), url('fonts/RobotoCondensed-Italic.ttf') format('truetype'), url('fonts/RobotoCondensed-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'Conv_RobotoCondensed-Regular';
+	src: url('fonts/RobotoCondensed-Regular.eot');
+	src: local('☺'), url('fonts/RobotoCondensed-Regular.woff') format('woff'), url('fonts/RobotoCondensed-Regular.ttf') format('truetype'), url('fonts/RobotoCondensed-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_RobotoSlab-Bold';
+	src: url('fonts/RobotoSlab-Bold.eot');
+	src: local('☺'), url('fonts/RobotoSlab-Bold.woff') format('woff'), url('fonts/RobotoSlab-Bold.ttf') format('truetype'), url('fonts/RobotoSlab-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_RobotoSlab-Light';
+	src: url('fonts/RobotoSlab-Light.eot');
+	src: local('☺'), url('fonts/RobotoSlab-Light.woff') format('woff'), url('fonts/RobotoSlab-Light.ttf') format('truetype'), url('fonts/RobotoSlab-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_RobotoSlab-Regular';
+	src: url('fonts/RobotoSlab-Regular.eot');
+	src: local('☺'), url('fonts/RobotoSlab-Regular.woff') format('woff'), url('fonts/RobotoSlab-Regular.ttf') format('truetype'), url('fonts/RobotoSlab-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /* General */
 
