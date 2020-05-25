@@ -19,6 +19,7 @@
 				
 				{ name: 'Énfasis letras rojas', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis rojo', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Énfasis azul', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
