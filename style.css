@@ -578,16 +578,13 @@
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter)'.';
+	content: counter(bck-li-counter)'.';
     position: absolute;
     top: 0px;
     left: -13px;
     display: block;
     width: 35px;
-    height: 24px;
-    border-radius: 5px;
-    background: #0071BB;
-    color: #fff;
+    color: #F15923;
     font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
