@@ -425,6 +425,22 @@
     			 0px 1px #fff;
 }
 
+/*énfasis*/
+/*énfasis rojo*/
+.bck-enfasis-2 {
+	background-color: #FDCAAC;
+}
+
+.cke_contents .bck-enfasis-2 {
+    padding: 0px;
+}
+
+/*énfasis letras rojas*/
+.bck-enfasis-1 {
+	font-weight: 700;
+    color: #F15923;
+}
+
 /* Lists */
 
 .texto_curso ul li,
