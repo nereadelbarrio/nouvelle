@@ -740,14 +740,22 @@
 }
 
 /* Icons */
-
 #actividad .player.audio {
-	  display: inline-block;
-      background-image: url(images/santifrances_nv_u1_pg30_0001.png);
-      background-color: rgba(0, 128, 0, 0)!important;
-      background-repeat: no-repeat;
-      background-size: contain;
-      margin: 0 5px;
+	display: inline-block;
+    background-image: url(images/santifrances_nv_u1_pg30_0001.png);
+    background-color: rgba(0, 128, 0, 0)!important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 5px;
+    vertical-align: sub;
+    position: relative;
+    top: 4px;
+}
+
+#actividad .player.audio, 
+#help-panel-content .player.audio, 
+#remote-alert-modal-rich .player.audio{
+	background-position: inherit;
 }
 
 .item-container .icon:before {
