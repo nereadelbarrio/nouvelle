@@ -55,6 +55,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Conv_TektonPro-Regular';
+	src: url('fonts/TektonPro-Regular.eot');
+	src: local('☺'), url('fonts/TektonPro-Regular.woff') format('woff'), url('fonts/TektonPro-Regular.ttf') format('truetype'), url('fonts/TektonPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* General */
 
 	body.content_type_clase_nouvelle {
@@ -457,6 +465,13 @@
 /*enfasis RobotoSlab*/
 .bck-enfasis-4{
 	font-family: 'Conv_RobotoSlab-Regular';
+}
+
+/*FontEjemplos*/
+.bck-enfasis-5 {
+	font-family: 'Conv_TektonPro-Regular';
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
 }
 
 /* Lists */
