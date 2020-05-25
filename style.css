@@ -463,6 +463,8 @@
 }
 
 //*Lista num 1*/
+/*Lista num 1*/
+/**/
 
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
@@ -483,6 +485,7 @@
 	counter-increment: bck-li-counter;
 	position: relative;
 	line-height: 1.1rem;
+	font-weight: 700;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -528,6 +531,7 @@
 	counter-increment: bck-li-counter;
 	position: relative;
 	line-height: 1.1rem;
+	font-weight: 700;
 }
 
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
@@ -551,7 +555,6 @@
     font-family: 'Conv_RobotoSlab-Bold';
 }
 
-/*LISTA ORDENADA 3*/
 /*LISTA ORDENADA 3*/
 #actividad .content .cke_contents .bck-ol-3,
 #actividad .content .texto_curso .bck-ol-3,
@@ -592,25 +595,43 @@
     font-family: 'Conv_RobotoSlab-Bold';
 }
 
-/*LISTA ORDENADA 4*/
+/*LISTA ORDENADA 4 letras*/
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+#actividad .content .workspace ul li .bck-ol-4,
+#actividad .popover-content .bck-ol-4 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
 
-.content .bck-ol4 li:before,
-.cke_contents .bck-ol4 li:before {
-	content: counter(bck-li-counter, lower-alpha);
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+	list-style-type: none;
+	padding-left: 29px;
+	margin-bottom: 16px;
+	counter-increment: bck-li-counter;
+	position: relative;
+	line-height: 1.1rem;
+}
+
+#actividad .content .cke_contents ol.bck-ol-4 li:before,
+#actividad .content .texto_curso ol.bck-ol-4 li:before,
+#actividad .popover-content ol.bck-ol-4 li:before,
+#actividad .content .workspace ul li ol.bck-ol-4 li:before  {
+	content: counter(bck-li-counter, lower-alpha)'.';
 	top: 0;
 	left: -5px;
-	width: 28px;
-	height: 20px;
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    border: none;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-    background: #C9DE79;
+    position: absolute;
+    top: 1px;
+    left: 10px;
     color: #000;
     line-height: 2rem;
+    color: #F15923;
+    line-height: 2rem;
+    font-family: 'Conv_RobotoSlab-Regular';
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
