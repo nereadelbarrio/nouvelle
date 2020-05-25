@@ -426,19 +426,32 @@
 }
 
 /*énfasis*/
-/*énfasis rojo*/
-.bck-enfasis-2 {
-	background-color: #FDCAAC;
-}
-
-.cke_contents .bck-enfasis-2 {
-    padding: 0px;
-}
-
 /*énfasis letras rojas*/
 .bck-enfasis-1 {
 	font-weight: 700;
     color: #F15923;
+}
+
+/*énfasis rojo*/
+.bck-enfasis-2 {
+	background-color: #CAE8F3;
+    padding: 9px 4px;
+}
+
+.cke_contents .bck-enfasis-2 {
+    padding: 0px;
+    background-color: #CAE8F3;
+}
+
+/*énfasis azul*/
+.bck-enfasis-3 {
+	background-color: #0071BB;
+    color: #ffff;
+}
+
+.cke_contents .bck-enfasis-3 {
+    padding: 0px;
+    background-color: #0071BB;
 }
 
 /* Lists */
