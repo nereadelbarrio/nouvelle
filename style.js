@@ -18,6 +18,7 @@
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
 				
 				{ name: 'Énfasis letras rojas', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Énfasis rojo', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
