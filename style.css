@@ -454,6 +454,11 @@
     background-color: #0071BB;
 }
 
+/*enfasis RobotoSlab*/
+.bck-enfasis-4{
+	font-family: 'Conv_RobotoSlab-Regular';
+}
+
 /* Lists */
 
 .texto_curso ul li,
@@ -660,6 +665,46 @@
     line-height: 2rem;
     color: #F15923;
     line-height: 2rem;
+}
+
+/*LISTA ORDENADA 5*/
+#actividad .content .cke_contents .bck-ol-5,
+#actividad .content .texto_curso .bck-ol-5,
+#actividad .content .workspace ul li .bck-ol-5,
+#actividad .popover-content .bck-ol-5 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
+#actividad .popover-content .bck-ol-5 li,
+#actividad .content .workspace ul li .bck-ol-5 li {
+	list-style-type: none;
+	padding-left: 29px;
+	margin-bottom: 16px;
+	counter-increment: bck-li-counter;
+	position: relative;
+	line-height: 1.1rem;
+}
+
+#actividad .content .cke_contents ol.bck-ol-5 li:before,
+#actividad .content .texto_curso ol.bck-ol-5 li:before,
+#actividad .popover-content ol.bck-ol-5 li:before,
+#actividad .content .workspace ul li ol.bck-ol-5 li:before {
+	content: counter(bck-li-counter)'.';
+    position: absolute;
+    top: 0px;
+    left: -13px;
+    display: block;
+    width: 35px;
+    color: #0071BB;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+    font-family: 'Conv_RobotoSlab-Bold';
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
