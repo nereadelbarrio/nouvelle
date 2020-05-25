@@ -809,17 +809,40 @@
 }
 
 /*TABLA POR DEFECTO*/
-
-.content table:not(.rf-tablegrid) td,
-.content table:not(.rf-tablegrid) th {
-    border: 3px solid #fff;
-    padding: 10px;
-    background: #D4EAE4;
+table td,
+.bck-table td {
+  padding: 10px;
+  border-color: #ccc;
 }
 
-.content table:not(.rf-tablegrid) {
-    border: 1px solid #F37731;
-    margin-bottom: 20px;
+table td.bck-td-1 {
+    color: inherit;
+    background-color: transparent;
+}
+
+td, th {
+  padding-left: 10px;
+}
+
+table,
+.bck-table {
+  border: 0px solid #ccc;
+}
+
+/*tabla roja y celda roja*/
+.bck-table-2 {
+  border: 1px solid #F15923;
+}
+
+.bck-table-2 td {
+  border: 1px solid #F15923;
+}
+
+/*celda roja*/
+table td.bck-td-2 {
+  color: #F15923;
+  background: #FEDBBD;
+  text-align: center;
 }
 
 /* Icons */
