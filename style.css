@@ -670,11 +670,9 @@
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before  {
 	content: counter(bck-li-counter, lower-alpha)'.';
-	top: 0;
-	left: -5px;
+	top: -5px;
+	left: 10px;
     position: absolute;
-    top: 1px;
-    left: 10px;
     color: #000;
     line-height: 2rem;
     color: #F15923;
