@@ -665,11 +665,13 @@
 }
 
 .bck-box-1 .bck-title{
-	background-color: #f15923;
+    background-color: #f15923;
     width: fit-content;
     border-radius: 15px 15px 0 0px;
     padding: 3px 15px 0px 15px;
     color: #ffff;
+    position: relative;
+    top: 15px;
 }
 
 .bck-box-1 .bck-content{
@@ -679,20 +681,6 @@
     width: fit-content;
     border-radius: 0 15px 15px 0px;
 }
-
-/*.bck-box {
-	margin: 10px;
-	border: 2px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 6px;
-}
-
-.bck-box .bck-content p:last-child {
-	margin-bottom: 0;
-}*/
 
 /* Caja 2 */
 .bck-box.bck-box2 {
