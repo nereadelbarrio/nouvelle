@@ -114,9 +114,7 @@
 	}
 
 	.content_type_clase_nouvelle #actividad .content .header .title {
-		margin: -40px 0 20px;
-		background: #10A0C6;
-		padding: 20px 97px;
+		display: none;
 	}
 
 	.content_type_clase_nouvelle #actividad .content .slide-concatenate .header .title {
@@ -969,4 +967,8 @@ body.content_type_clase_nouvelle #actividad .content .fillblanks-draggable
 	width: auto;
 	height: 100px !important;
 	padding: 0;
+}
+
+#actividad .workspace label{
+	font-size: 1.8rem;
 }
