@@ -743,7 +743,7 @@
 
 #actividad .player.audio {
 	  display: inline-block;
-      background-image: url(images/santifrances_nv_u1_pg30_0001.png) center center;
+      background-image: url(images/santifrances_nv_u1_pg30_0001.png);
       background-color: rgba(0, 128, 0, 0)!important;
       background-repeat: no-repeat;
       background-size: contain;
