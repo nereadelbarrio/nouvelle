@@ -478,7 +478,6 @@
 	line-height: 1.1rem;
 }
 
-//*Lista num 1*/
 /*Lista num 1*/
 /**/
 
@@ -659,8 +658,29 @@
 }
 
 /*CAJAS*/
+/*caja 1*/
+.bck-box.bck-box-1{
+	margin: 10px;
+    padding: 6px;
+}
 
-.bck-box {
+.bck-box-1 .bck-title{
+	background-color: #f15923;
+    width: fit-content;
+    border-radius: 15px 15px 0 0px;
+    padding: 3px 15px 0px 15px;
+    color: #ffff;
+}
+
+.bck-box-1 .bck-content{
+	border: 8px solid #f15923;
+    font-size: 2rem;
+    padding: 8px 8px 8px 8px;
+    width: fit-content;
+    border-radius: 0 15px 15px 0px;
+}
+
+/*.bck-box {
 	margin: 10px;
 	border: 2px solid #10a0c6;
 	-webkit-border-radius: 10px;
@@ -672,7 +692,7 @@
 
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
-}
+}*/
 
 /* Caja 2 */
 .bck-box.bck-box2 {
