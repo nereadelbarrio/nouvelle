@@ -539,7 +539,7 @@
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter);
     position: absolute;
-    top: 0px;
+    top: 4px;
     left: -13px;
     display: block;
     width: 35px;
