@@ -1045,6 +1045,11 @@ body.content_type_clase_nouvelle #actividad .content .fillblanks-draggable
 	font-size: 1.8rem;
 }
 
+#actividad .workspace.chooseblanks .inline-answer{
+	position: relative;
+    top: -5px;
+}
+
 #actividad .workspace.chooseblanks .inline-answer a{
 	display: inline-block;
     /* vertical-align: top; */
