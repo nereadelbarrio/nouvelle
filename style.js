@@ -31,6 +31,7 @@
 				{ name: 'Lista ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 				{ name: 'Lista ordenada 5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-5' } },
 				{ name: 'Lista ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-6' } },
+				{ name: 'Lista ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
 
 				{ name: 'Caja Observez', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja grammaire', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
