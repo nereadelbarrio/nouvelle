@@ -1044,3 +1044,23 @@ body.content_type_clase_nouvelle #actividad .content .fillblanks-draggable
 #actividad .workspace label{
 	font-size: 1.8rem;
 }
+
+#actividad .workspace.chooseblanks .inline-answer a{
+	display: inline-block;
+    /* vertical-align: top; */
+    border: 2px solid #fdcaac;
+    padding: 3px 6px;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a:hover{
+	background-color: #fdcaac;
+    color: #414141;
+}
+
+a:focus{
+	color: #F68B1F;
+}
