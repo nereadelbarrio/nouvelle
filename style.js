@@ -23,6 +23,7 @@
 				{ name: 'Énfasis RobotoSlab', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'Énfasis FontEjemplos', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'Énfasis letras azules', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
+				{ name: 'Énfasis letras moradas', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
