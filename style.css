@@ -467,8 +467,6 @@
 /*FontEjemplos*/
 .bck-enfasis-5 {
 	font-family: 'Conv_TektonPro-Regular';
-    font-size: 2.2rem;
-    letter-spacing: 0.6px;
 }
 
 /* Lists */
@@ -1026,7 +1024,7 @@ table td.bck-td-2 {
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
-    background: #c1e5f7;
+    background: #FEDBBD;
 }
 
 .fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
