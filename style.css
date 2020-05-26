@@ -706,7 +706,7 @@
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter)'.';
     position: absolute;
-    top: 0px;
+    top: -1px;
     left: -13px;
     display: block;
     width: 35px;
