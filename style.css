@@ -704,6 +704,7 @@
 	counter-increment: bck-li-counter;
 	position: relative;
 	line-height: 1.1rem;
+	font-family: 'Conv_RobotoSlab-Regular';
 }
 
 #actividad .content .cke_contents ol.bck-ol-5 li:before,
@@ -721,7 +722,7 @@
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
-    font-family: 'Conv_RobotoSlab-Regular';
+    font-family: 'Conv_RobotoSlab-Bold';
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
