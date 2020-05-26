@@ -468,6 +468,7 @@
 /*FontEjemplos*/
 .bck-enfasis-5 {
 	font-family: 'Conv_TektonPro-Regular';
+	font-size: 1.9rem;
 }
 
 /*énfasis letras azules*/
@@ -591,7 +592,7 @@
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	content: counter(bck-li-counter);
     position: absolute;
-    top: 2px;
+    top: -1px;
     left: -13px;
     display: block;
     width: 35px;
