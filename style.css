@@ -986,10 +986,10 @@ table td.bck-td-2 {
 
 .content_type_clase_nouvelle .slide_main input:focus,
 .content_type_clase_nouvelle .slide_main .img-input-container:focus {
-    border-top-color: #10A0C6;
-    border-right-color: #10A0C6;
-    border-bottom-color: #10A0C6;
-    border-left-color: #10A0C6;
+    border-top-color: #F68B1F;
+    border-right-color: #F68B1F;
+    border-bottom-color: #F68B1F;
+    border-left-color: #F68B1F;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
