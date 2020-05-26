@@ -483,6 +483,12 @@
     color: rgb(122,89,165);
 }
 
+/*énfasis letras verde*/
+.bck-enfasis-8 {
+	font-weight: 700;
+    color: #3E8C46;
+}
+
 /* Lists */
 
 .texto_curso ul li,
