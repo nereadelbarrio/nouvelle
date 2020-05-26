@@ -1094,6 +1094,11 @@ table td.bck-td-2 {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
 }
 
+.content_type_clase_nouvelle #actividad .slide_content_type_1 .pregunta .texto_curso,
+.content_type_clase_nouvelle #actividad .texto_curso, .html-book{
+	font-size: 1.9rem;
+}
+
 /* Slides */
 
 #actividad .workspace.multiple-choice .opcion,
