@@ -477,6 +477,12 @@
     color: #0071BB;
 }
 
+/*énfasis letras moradas*/
+.bck-enfasis-7 {
+	font-weight: 700;
+    color: rgb(122,89,165);
+}
+
 /* Lists */
 
 .texto_curso ul li,
