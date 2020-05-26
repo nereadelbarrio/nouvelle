@@ -32,6 +32,10 @@
 				{ name: 'Caja Observez', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja grammaire', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Caja 4 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Caja 5 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
+				{ name: 'Caja 6 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
+				{ name: 'Caja 7 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
 				
 				{ name: 'Tabla roja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 
