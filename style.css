@@ -1005,7 +1005,6 @@
   color: inherit;
 }
 
-
 .bck-box.bck-box-4 .bck-content {
     padding-left: 30px;
     background-color: #FFEBBE;
@@ -1022,7 +1021,6 @@
 .bck-box.bck-box-5 .bck-title {
   color: inherit;
 }
-
 
 .bck-box.bck-box-5 .bck-content {
     padding-left: 30px;
@@ -1041,7 +1039,6 @@
   color: inherit;
 }
 
-
 .bck-box.bck-box-6 .bck-content {
     padding-left: 30px;
     background-color: #DAE49B;
@@ -1059,8 +1056,25 @@
   color: inherit;
 }
 
-
 .bck-box.bck-box-7 .bck-content {
+    padding-left: 30px;
+    background-color: #E8DFEF;
+    padding: 8px 8px 8px 19px;
+}
+
+/*caja simple 8*/
+.bck-box.bck-box-8 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+  box-shadow: 5px 8px 12px 0px #c4c4c4;
+}
+
+.bck-box.bck-box-8 .bck-title {
+  color: inherit;
+}
+
+.bck-box.bck-box-8 .bck-content {
     padding-left: 30px;
     background-color: #E8DFEF;
     padding: 8px 8px 8px 19px;
