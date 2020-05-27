@@ -1065,7 +1065,8 @@
 /*caja simple 8*/
 .bck-box.bck-box-8 {
   margin-top: 15px;
-  border: none;
+      border: 1px solid #ffff;
+    border-radius: 20px;
   background: transparent;
   box-shadow: 5px 8px 12px 0px #c4c4c4;
 }
