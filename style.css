@@ -687,7 +687,7 @@
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before  {
 	content: counter(bck-li-counter, lower-alpha)'.';
-	top: -5px;
+	top: 4px;
 	left: 10px;
     position: absolute;
     color: #000;
@@ -725,7 +725,7 @@
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
 	content: counter(bck-li-counter)'.';
     position: absolute;
-    top: -1px;
+    top: 1px;
     left: -13px;
     display: block;
     width: 35px;
@@ -810,7 +810,7 @@
 #actividad .content .workspace ul li ol.bck-ol-7 li:before {
 	content: counter(bck-li-counter)'.';
     position: absolute;
-    top: -1px;
+    top: 1px;
     left: -13px;
     display: block;
     width: 35px;
@@ -896,7 +896,7 @@
 #actividad .content .workspace ul li ol.bck-ol-9 li:before {
 	content: counter(bck-li-counter)'.';
     position: absolute;
-    top: -1px;
+    top: 1px;
     left: -13px;
     display: block;
     width: 35px;
