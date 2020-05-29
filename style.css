@@ -308,6 +308,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
     overflow: hidden;
     position: relative;
     background-color: #F08822;
+	background-image: none;
 }
 
 /*BOTONES*/
