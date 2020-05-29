@@ -280,7 +280,7 @@
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled){
-	background: #E84E24;
+	background: #CD2027;
     margin-bottom: 7px;
     padding: 7px 0px 7px 0px;
     border-radius: 7px;
@@ -297,9 +297,22 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     display: block;
 }
 
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, 
-#indice .units ul li.active a{
-	color: #fff;
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
+  color:#ffff;
+}
+
+#indice .unit-content .actividades{
+	border-top: 4px solid #CD2027;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus{
+	background-color: #CD2027;
 }
 
 /* Navbar */
