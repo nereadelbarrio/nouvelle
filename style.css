@@ -283,6 +283,15 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     box-shadow: 5px 6px 6px -2px #bfbfbf;
 }
 
+#indice .units ul li a .title{
+	font-size: 1.6rem;
+    font-weight: 700;
+    color: #707070;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
 /* Navbar */
 	.navbar-bottom {
 		background: #132E4C;
