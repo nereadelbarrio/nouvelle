@@ -361,7 +361,7 @@ a:hover, a:active, a:focus{
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+		background: #4b4b4b;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -449,10 +449,12 @@ a:hover, a:active, a:focus{
 		background: rgb(142, 206, 224);
 		color: transparent;
 	}
+
 	#bottom-navigator li.active {
-		background: #007FA3;
+		background: #0071BB;
 		color: transparent;
 	}
+
 	#bottom-navigator.show_left:before {
 		content: '\F053';
 		font-family: 'FontAwesome';
