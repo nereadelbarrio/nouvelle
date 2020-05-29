@@ -1383,6 +1383,12 @@ body.content_type_clase_nouvelle #actividad .content .fillblanks-draggable
     color: #414141;
 }
 
+#actividad .workspace.chooseblanks select{
+	 border: 0;
+    border-bottom: 1px solid #CCC;
+    width: 100%;
+}
+
 a:focus{
 	color: #F68B1F;
 }
