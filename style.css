@@ -307,7 +307,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 	height: 145px;
     overflow: hidden;
     position: relative;
-    background-color: #F08822;
+    background-color: #F08822 !important;
 	background-image: none;
 }
 
