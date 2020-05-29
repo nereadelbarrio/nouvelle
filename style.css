@@ -324,6 +324,19 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 	background-color: #CD2027;
 }
 
+.btn-danger,
+.btn-danger[disabled]{
+	background-color: #F68B1F;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger{
+	background-color: #e97500;
+}
+
 /*ENLACES*/
 a:hover, a:active, a:focus{
 	color: #CD2027;
