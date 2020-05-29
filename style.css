@@ -270,6 +270,11 @@
 #indice .units ul li{
 	padding: 0;
     transition: padding 0.5s;
+    background: #f7d7b9;
+}
+
+#indice .units ul li{
+	background: #f7d7b9;
 }
 
 #indice .units ul li.active:not(.disabled),
@@ -291,6 +296,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     line-height: 18px;
     display: block;
 }
+
 
 /* Navbar */
 	.navbar-bottom {
