@@ -253,6 +253,31 @@
 		right: 15px;
 	}
 /**/
+/*TOC*/
+#indice .units ul li a:not(.delete){
+	display: block;
+    padding: 8px 30px;
+    position: relative;
+}
+
+#indice .units ul li a:not(.delete):before{
+	CONTENT: '\f02e';
+    font-family: 'FontAwesome';
+    position: relative;
+    left: -10px;
+}
+
+#indice .units ul li.active:not(.disabled),
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+#indice .units ul li:focus:not(.disabled){
+	background: #E84E24;
+    margin-bottom: 12px;
+    padding: 1px;
+    border-radius: 7px;
+    -webkit-box-shadow: 10px 10px 10px 10px #C9C9C9;
+    box-shadow: 5px 6px 6px -2px #bfbfbf;
+}
+
 
 /* Navbar */
 	.navbar-bottom {
