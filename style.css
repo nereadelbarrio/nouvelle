@@ -302,6 +302,13 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
   color:#ffff;
 }
 
+/*portadilla*/
+#indice .unit-content .header{
+	height: 145px;
+    overflow: hidden;
+    position: relative;
+    background-color: #F08822;
+}
 
 /*BOTONES*/
 #indice .unit-content .actividades{
