@@ -297,6 +297,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     display: block;
 }
 
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover, 
+#indice .units ul li.active a{
+	color: #fff;
+}
 
 /* Navbar */
 	.navbar-bottom {
