@@ -302,6 +302,8 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
   color:#ffff;
 }
 
+
+/*BOTONES*/
 #indice .unit-content .actividades{
 	border-top: 4px solid #CD2027;
     margin-top: 40px;
@@ -313,6 +315,11 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 .btn-primary.disabled:hover,
 .btn-primary.disabled:focus{
 	background-color: #CD2027;
+}
+
+/*ENLACES*/
+a:hover, a:active, a:focus{
+	color: #CD2027;
 }
 
 /* Navbar */
