@@ -267,17 +267,21 @@
     left: -10px;
 }
 
+#indice .units ul li{
+	padding: 0;
+    transition: padding 0.5s;
+}
+
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled){
 	background: #E84E24;
-    margin-bottom: 12px;
-    padding: 1px;
+    margin-bottom: 7px;
+    padding: 7px 0px 7px 0px;
     border-radius: 7px;
     -webkit-box-shadow: 10px 10px 10px 10px #C9C9C9;
     box-shadow: 5px 6px 6px -2px #bfbfbf;
 }
-
 
 /* Navbar */
 	.navbar-bottom {
