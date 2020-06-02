@@ -47,13 +47,7 @@
 				
 				{ name: 'Tabla roja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 
-				{ name: 'Celda roja', element: 'td', attributes: { 'class': 'bck-td-2'} },
-
-				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
-				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
-				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
-				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
-				{ name: 'Icono Star', element: 'span', attributes: { 'class': 'icon icon-star' } }
+				{ name: 'Celda roja', element: 'td', attributes: { 'class': 'bck-td-2'} }
 			]
 		},
 
