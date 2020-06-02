@@ -1261,6 +1261,7 @@ table td.bck-td-2 {
 	margin-top: -16px;
 }
 
+/* NO SE USAN
 .item-container .icon-draw:before {
 	background-image: url(images/Icon_draw.png);
 }
@@ -1280,6 +1281,7 @@ table td.bck-td-2 {
 .item-container .icon-star:before {
 	background-image: url(images/Icon_star.png);
 }
+*/
 
 /* Forms */
 
