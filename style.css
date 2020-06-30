@@ -1047,7 +1047,7 @@ a:hover, a:active, a:focus{
     font-size: 2rem;
     padding: 8px 8px 8px 8px;
     width: fit-content;
-    border-radius: 0 15px 15px 15px;
+    border-radius: 0 8px 15px 15px;
 }
 
 /* Caja 2 */
@@ -1188,6 +1188,30 @@ a:hover, a:active, a:focus{
     padding-left: 30px;
     background-color: #E8DFEF;
     padding: 8px 8px 8px 19px;
+}
+
+/*caja 9 JE MÉMORISE*/
+.bck-box.bck-box-9{
+	margin: 10px;
+    padding: 6px;
+}
+
+.bck-box-9 .bck-title{
+	background-color: #EF9F17;
+    width: fit-content;
+    border-radius: 15px 15px 0 0px;
+    padding: 3px 15px 0px 15px;
+    color: #ffff;
+    position: relative;
+    top: 15px;
+}
+
+.bck-box-9 .bck-content{
+	border: 8px solid #EF9F17;
+    font-size: 2rem;
+    padding: 8px 8px 8px 8px;
+    width: fit-content;
+    border-radius: 0 8px 15px 15px;
 }
 
 /*TABLA POR DEFECTO*/
