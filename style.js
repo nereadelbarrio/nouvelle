@@ -45,6 +45,7 @@
 				{ name: 'Caja 7 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
 				{ name: 'Caja 8 simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 				{ name: 'Caja je mémorise', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
+				{ name: 'Caja dire', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 
 				{ name: 'Tabla roja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 
