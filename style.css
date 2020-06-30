@@ -313,7 +313,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 /*BOTONES*/
 #indice .unit-content .actividades{
-	border-top: 4px solid #CD2027;
+	border-top: 4px solid #f15940;
     margin-top: 40px;
     margin-bottom: 90px;
 }
@@ -322,7 +322,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 .btn-primary.disabled,
 .btn-primary.disabled:hover,
 .btn-primary.disabled:focus{
-	background-color: #CD2027;
+	background-color: #F15940;
 }
 
 .btn-danger,
