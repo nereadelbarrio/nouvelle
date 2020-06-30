@@ -796,7 +796,7 @@ a:hover, a:active, a:focus{
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before  {
 	content: counter(bck-li-counter, lower-alpha)'.';
-	top: -5px;
+	top: 4px;
 	left: 10px;
     position: absolute;
     color: #000;
