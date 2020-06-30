@@ -1394,3 +1394,72 @@ body.content_type_clase_nouvelle #actividad .content .fillblanks-draggable
     width: 100%;
 }
 
+/*******TAGS*******/
+/*********coursetags*********/
+/******Nivel B1*******/
+.coursetag_nouvelleb1 #indice .units ul li{
+	background: #f8d0dd;
+}
+
+.coursetag_nouvelleb1 #indice .units ul li.active:not(.disabled){
+ 	background: #EE3B76;
+}
+
+.coursetag_nouvelleb1 #indice .units ul li:hover:not(.disabled){
+	background: #EE3B76;
+}
+
+.coursetag_nouvelleb1 #indice .units ul li:focus:not(.disabled){
+	background: #EE3B76;
+}
+
+.coursetag_nouvelleb1 .btn-primary, 
+.coursetag_nouvelleb1 .btn-primary.disabled, 
+.coursetag_nouvelleb1 .btn-primary.disabled:hover, 
+.coursetag_nouvelleb1 .btn-primary.disabled:focus{
+	background: #EE3B76;
+}
+
+.coursetag_nouvelleb1 #indice .unit-content .actividades{
+	border-top: 4px solid #EE3B76;
+}
+
+.coursetag_nouvelleb1 a:hover,
+.coursetag_nouvelleb1 a:active,
+.coursetag_nouvelleb1 a:focus{
+	color: #EE3B76;
+}
+
+/******Nivel A2-B1*******/
+.coursetag_nouvellea2b1 #indice .units ul li{
+	background: #b2f3fd;
+}
+
+.coursetag_nouvellea2b1 #indice .units ul li.active:not(.disabled){
+ 	background: #00869B;
+}
+
+.coursetag_nouvellea2b1 #indice .units ul li:hover:not(.disabled){
+	background: #00869B !important;
+}
+
+.coursetag_nouvellea2b1 #indice .units ul li:focus:not(.disabled){
+	background: #00869B !important;
+}
+
+.coursetag_nouvellea2b1 .btn-primary, 
+.coursetag_nouvellea2b1 .btn-primary.disabled, 
+.coursetag_nouvellea2b1 .btn-primary.disabled:hover, 
+.coursetag_nouvellea2b1 .btn-primary.disabled:focus{
+	background: #00869B;
+}
+
+.coursetag_nouvellea2b1 #indice .unit-content .actividades{
+	border-top: 4px solid #00869B;
+}
+
+.coursetag_nouvellea2b1 a:hover,
+.coursetag_nouvellea2b1 a:active,
+.coursetag_nouvellea2b1 a:focus{
+	color: #00869B;
+}
