@@ -1070,9 +1070,6 @@ a:hover, a:active, a:focus{
 	content: counter(bck-li-counter, lower-alpha)'.';
 	left: 10px;
     position: absolute;
-    left: 10px;
-    color: #000;
-    line-height: 2rem;
     color: #0072BB;
     line-height: 2rem;
 }
