@@ -768,7 +768,7 @@ a:hover, a:active, a:focus{
     font-family: 'Conv_RobotoSlab-Bold';
 }
 
-/*LISTA ORDENADA 4 letras*/
+/*LISTA ORDENADA 4 letras rojas*/
 #actividad .content .cke_contents .bck-ol-4,
 #actividad .content .texto_curso .bck-ol-4,
 #actividad .content .workspace ul li .bck-ol-4,
@@ -791,18 +791,24 @@ a:hover, a:active, a:focus{
 	font-family: 'Conv_RobotoSlab-Regular';
 }
 
+
 #actividad .content .cke_contents ol.bck-ol-4 li:before,
 #actividad .content .texto_curso ol.bck-ol-4 li:before,
-#actividad .popover-content ol.bck-ol-4 li:before,
-#actividad .content .workspace ul li ol.bck-ol-4 li:before  {
+#actividad .popover-content ol.bck-ol-4 li:before{
 	content: counter(bck-li-counter, lower-alpha)'.';
 	top: 4px;
 	left: 10px;
     position: absolute;
+    top: 1px;
+    left: 10px;
     color: #000;
     line-height: 2rem;
     color: #F15923;
     line-height: 2rem;
+}
+
+#actividad .content .workspace ul li ol.bck-ol-4 li:before{
+	top: -5px;
 }
 
 /*LISTA ORDENADA 5*/
@@ -825,13 +831,11 @@ a:hover, a:active, a:focus{
 	counter-increment: bck-li-counter;
 	position: relative;
 	line-height: 1.1rem;
-	font-family: 'Conv_RobotoSlab-Regular';
 }
 
 #actividad .content .cke_contents ol.bck-ol-5 li:before,
 #actividad .content .texto_curso ol.bck-ol-5 li:before,
-#actividad .popover-content ol.bck-ol-5 li:before,
-#actividad .content .workspace ul li ol.bck-ol-5 li:before {
+#actividad .popover-content ol.bck-ol-5 li:before{
 	content: counter(bck-li-counter)'.';
     position: absolute;
     top: 1px;
@@ -844,6 +848,10 @@ a:hover, a:active, a:focus{
     text-align: center;
     line-height: 2.5rem;
     font-family: 'Conv_RobotoSlab-Bold';
+}
+
+#actividad .content .workspace ul li ol.bck-ol-5 li:before {
+	top: -6px;
 }
 
 /*LISTA num 6*/
@@ -1001,11 +1009,10 @@ a:hover, a:active, a:focus{
 
 #actividad .content .cke_contents ol.bck-ol-9 li:before,
 #actividad .content .texto_curso ol.bck-ol-9 li:before,
-#actividad .popover-content ol.bck-ol-9 li:before,
-#actividad .content .workspace ul li ol.bck-ol-9 li:before {
+#actividad .popover-content ol.bck-ol-9 li:before{
 	content: counter(bck-li-counter)'.';
     position: absolute;
-    top: 1px;
+    top: -1px;
     left: -13px;
     display: block;
     width: 35px;
@@ -1017,6 +1024,53 @@ a:hover, a:active, a:focus{
     font-family: 'Conv_RobotoSlab-Bold';
 }
 
+#actividad .content .workspace ul li ol.bck-ol-9 li:before {
+	top: -7px;
+}
+
+
+/*LISTA ORDENADA 10 letras azules*/
+#actividad .content .cke_contents .bck-ol-10
+#actividad .content .texto_curso .bck-ol-10,
+#actividad .content .workspace ul li .bck-ol-10,
+#actividad .popover-content .bck-ol-10 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-10 li,
+#actividad .content .cke_contents .bck-ol-10 li,
+#actividad .content .texto_curso .bck-ol-10 li,
+#actividad .popover-content .bck-ol-10 li,
+#actividad .content .workspace ul li .bck-ol-10 li {
+	list-style-type: none;
+	padding-left: 29px;
+	margin-bottom: 16px;
+	counter-increment: bck-li-counter;
+	position: relative;
+	line-height: 1.1rem;
+	font-family: 'Conv_RobotoSlab-Regular';
+}
+
+
+#actividad .content .cke_contents ol.bck-ol-10 li:before,
+#actividad .content .texto_curso ol.bck-ol-10 li:before,
+#actividad .popover-content ol.bck-ol-10 li:before{
+	content: counter(bck-li-counter, lower-alpha)'.';
+	top: 4px;
+	left: 10px;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    color: #000;
+    line-height: 2rem;
+    color: #0072BB;
+    line-height: 2rem;
+}
+
+#actividad .content .workspace ul li ol.bck-ol-10 li:before{
+	top: -5px;
+}
 /*LISTA DESORDENADA POR DEFECTO*/
 
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
