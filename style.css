@@ -1067,6 +1067,14 @@ a:hover, a:active, a:focus{
 
 #actividad .content .workspace ul li ol.bck-ol-10 li:before{
 	top: -5px;
+	content: counter(bck-li-counter, lower-alpha)'.';
+	left: 10px;
+    position: absolute;
+    left: 10px;
+    color: #000;
+    line-height: 2rem;
+    color: #0072BB;
+    line-height: 2rem;
 }
 /*LISTA DESORDENADA POR DEFECTO*/
 
