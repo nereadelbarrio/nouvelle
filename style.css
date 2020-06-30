@@ -270,17 +270,17 @@
 #indice .units ul li{
 	padding: 0;
     transition: padding 0.5s;
-    background: #f7d7b9;
+    background: #fad0c9;
 }
 
 #indice .units ul li{
-	background: #f7d7b9;
+	background: #fad0c9;
 }
 
 #indice .units ul li.active:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled){
-	background: #CD2027;
+	background: #F15940;
     margin-bottom: 7px;
     padding: 7px 0px 7px 0px;
     border-radius: 7px;
@@ -343,12 +343,12 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 .btn-primary:not([disabled]):active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary{
-	background-color: #A7CE39;
+	background-color: #F15940;
 }
 
 .btn-primary[disabled],
 .btn-primary[disabled]:focus{
-	background-color: #A7CE39;
+	background-color: #F15940;
 }
 
 #actividad .content .review .attemps span{
@@ -357,7 +357,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title{
 
 /*ENLACES*/
 a:hover, a:active, a:focus{
-	color: #CD2027;
+	color: #F15940;
 }
 
 /* Navbar */
